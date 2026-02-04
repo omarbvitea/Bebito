@@ -58,7 +58,7 @@ class _AddMemoryDialogState extends ConsumerState<AddMemoryDialog> {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(
+            const Text(
               'Nueva Memoria',
               style: TextStyle(
                 fontSize: 22,
@@ -71,7 +71,7 @@ class _AddMemoryDialogState extends ConsumerState<AddMemoryDialog> {
             TextField(
               controller: _titleController,
               decoration: InputDecoration(
-                labelText: 'Título de la Memoria',
+                labelText: 'Título',
                 labelStyle: TextStyle(color: Colors.grey[700]),
                 contentPadding: const EdgeInsets.symmetric(
                   horizontal: 16,
